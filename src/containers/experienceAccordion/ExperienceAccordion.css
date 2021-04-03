@@ -1,0 +1,26 @@
+.experience-accord {
+  margin: 50px;
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  border: 0.1px solid rgba(211, 211, 211, 0.397);
+  transition: all 0.2s ease-in-out;
+}
+
+.experience-accord:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #e2405f;
+}
+
+.accord-panel {
+  font-family: "Google Sans Regular";
+}
+
+.accord {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .experience-accord {
+    margin: 20px;
+  }
+}

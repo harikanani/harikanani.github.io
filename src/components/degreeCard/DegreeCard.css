@@ -1,0 +1,90 @@
+.degree-card {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-family: "Google Sans Medium";
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.card-subtitle {
+  font-family: "Google Sans Medium";
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.body-header {
+  max-width: inherit;
+  display: flex;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+}
+
+.body-header-title {
+  align-items: flex-start;
+  width: 80%;
+}
+
+.body-header-duration {
+  width: 20%;
+}
+.duration {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  padding-right: 10px;
+  float: right;
+}
+
+.body-content {
+  max-width: inherit;
+  border-radius: 0px 0px 7px 7px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-list {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Google Sans Regular";
+}
+
+@media (max-width: 768px) {
+  .degree-card {
+    flex-direction: column;
+  }
+
+  .body-header {
+    flex-direction: column;
+  }
+
+  .body-header-title {
+    width: 100%;
+  }
+
+  .body-header-duration {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .duration {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-subtitle {
+    font-size: 16px;
+  }
+}

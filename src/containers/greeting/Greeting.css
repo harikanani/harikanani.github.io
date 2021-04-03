@@ -1,0 +1,116 @@
+.main {
+  width: 90%;
+  padding: 0px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.greet-main {
+  max-width: 1370px;
+  padding: 10px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+  display: block;
+}
+
+.greeting-main {
+  display: flex;
+  /* text-align: center; */
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  margin-top: 110px;
+  font-size: 70px;
+  line-height: 5px;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: "Google Sans Bold Italic";
+}
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
+.greeting-image-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  padding: 15px 15px;
+  margin-top: 25px;
+  border-radius: 4px;
+  border-width: 0px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  font-size: 17px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+
+  .greeting-text-p {
+    font-size: 20px;
+  }
+
+  .greet-main {
+    max-width: 900px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+
+  .portfolio-repo-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
