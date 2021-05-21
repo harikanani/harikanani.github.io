@@ -1,16 +1,12 @@
-# PortfolioV2
+# Portfolio
 
-![PortfolioV2](/images/portfolio1.gif)
-
-### A clean portfolio template. (Readme will be updated soon)
-
-# Sections
+## Sections
 
 - Home
-- Education and Certificates
-- Experience
-- Projects
-- Contact and Resume
+- Formação
+- Experiência
+- Projetos
+- Contato
 
 # How To Use
 
@@ -45,7 +41,7 @@
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 
 
-# Technologies used 🛠️
+# Tecnologias usadas  🛠️
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
@@ -60,5 +56,5 @@ Now, your website is successfully deployed and you can visit it at `<your-github
 
 # References
 
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
+Based on https://github.com/ashutosh1919/masterPortfolio/ , https://github.com/saadpasta/developerFolio and https://github.com/harikanani/PortfolioV2
 Illustrations: https://undraw.co/
