@@ -15,7 +15,7 @@ const greeting = {
   nickname: "amiranmanesh",
   full_name: "Amirhossein Iranmanesh",
   subTitle:
-    "Expert Mobile Developer and Backend Developer. Open Source Enthusiast 🔥. Always learning.",
+    "Expert Mobile Developer and Junior Backend Developer. Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/17HCKQFAcqZoSI9jTEsolAB_QuN0vhZSP/view?usp=sharing",
   mail: "mailto:iranmanesh.ah@gmail.com",
@@ -30,6 +30,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/iranmanesh.ah/",
   twitter: "https://twitter.com/amiranmanesh/",
   instagram: "https://www.instagram.com/amiranmanesh/",
+  telegram: "https://www.instagram.com/amiranmanesh/",
 };
 
 const skills = {
@@ -42,8 +43,8 @@ const skills = {
         "⚡ Creating application backend in Go & PHP",
         "⚡ Creating websites with Wordpress",
         "⚡ Thinker & Creative",
-        "⚡ Adept at bringing all team members together to reach a common goal on time and under budget",
-        "⚡ Committed to viable and easily functional app solutions for clients",
+        // "⚡ Adept at bringing all team members together to reach a common goal on time and under budget",
+        // "⚡ Committed to viable and easily functional app solutions for clients",
       ],
       softwareSkills: [
         {
@@ -110,10 +111,45 @@ const skills = {
           },
         },
         {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
           skillName: "Wordpress",
           fontAwesomeClassname: "simple-icons:wordpress",
           style: {
             color: "#207297",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#149b4e",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#29B0EE",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#f7a00c",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#376c99",
           },
         },
         {
@@ -128,13 +164,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:qt",
           style: {
             color: "#3fc74f",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
           },
         },
       ],
@@ -169,20 +198,7 @@ const skills = {
     //         color: "#6863A6",
     //       },
     //     },
-    //     {
-    //       skillName: "Firebase",
-    //       fontAwesomeClassname: "simple-icons:firebase",
-    //       style: {
-    //         color: "#FFCA28",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PostgreSQL",
-    //       fontAwesomeClassname: "simple-icons:postgresql",
-    //       style: {
-    //         color: "#336791",
-    //       },
-    //     },
+
     //     {
     //       skillName: "MongoDB",
     //       fontAwesomeClassname: "simple-icons:mongodb",
@@ -234,125 +250,65 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've mostly worked as a freelancer mobile developer or done projects on my own. I love being creative and thinking about new ideas and projects. And now I am actively looking for a Golang backend developer position.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work Experience",
+      title: "Mobile Development",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
-          description:
-            "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description:
-            "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          title: "Freelancer",
+          company: "",
+          company_url: "",
+          logo_path: "freelancer.png",
+          duration: "2017 - Present",
+          location: "",
+          description: "Freelancer Android & Flutter developer",
+          color: "#743bff",
         },
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Web Development",
       experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
+          title: "Freelancer",
+          company: "",
+          company_url: "",
+          logo_path: "freelancer.png",
+          duration: "2020 - Present",
+          location: "",
+          description: "Freelancer backend developer in Golang & PHP",
+          color: "#743bff",
         },
+      ],
+    },
+    {
+      title: "Managerial",
+      experiences: [
         {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
+          title: "Thinker & CTO",
+          company: "IDEKR.co",
+          company_url: "https://idekr.com/",
+          logo_path: "idekr.jpeg",
+          duration: "2019 - Present",
+          location: "",
           description:
-            "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
+            "Thinker and Chief Technical Officer(CTO) in IDEKR at EiGHT company",
+          color: "#1d5a82",
         },
       ],
     },
   ],
 };
 
-// Projects Page
-const projectsHeader = {
-  title: "Projects",
-  description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
-  avatar_image_path: "projects_image.svg",
-};
-
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "me.jpeg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -365,295 +321,139 @@ const contactPageData = {
   },
 };
 
+// Projects Page
+const projectsHeader = {
+  title: "Projects",
+  description:
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create Golang Backend Projects, Android Applications, and Flutter Projects. Below are some of my projects.",
+  avatar_image_path: "projects_image.svg",
+};
+
 const projects = {
   data: [
     {
       id: "0",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
+      name: "Radgir App",
+      url: "https://radgir.net/",
       description:
-        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+        "Smart application to track post (and Tipax) packages with user-friendly Ui & featuring automation package tracking.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Kotlin",
+          iconifyClass: "logos-kotlin",
+        },
+        {
+          name: "SQLite",
+          iconifyClass: "logos-sqlite",
+        },
+        {
+          name: "Android",
+          iconifyClass: "logos-android",
         },
       ],
     },
     {
       id: "1",
-      name: "react-twitter-clone",
-      url: "https://github.com/harikanani/react-twitter-clone",
+      name: "HighFollower App",
+      url: "https://highfollower.com/",
       description:
-        "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
+        "HighFollower is an Android application that helps to increase Instagram followers and interacting with Instagram APIs in the background.",
       languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
         {
           name: "Firebase",
           iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Kotlin",
+          iconifyClass: "logos-kotlin",
+        },
+        {
+          name: "Java",
+          iconifyClass: "logos-java",
+        },
+        {
+          name: "Android",
+          iconifyClass: "logos-android",
         },
       ],
     },
     {
       id: "2",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
+      name: "Hesabchi App",
+      url: "https://hesabchiapp.ir/",
       description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
+        "Hesabchi is a tool to manage daily costs and shares between roommates and teams.",
       languages: [
         {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
         },
         {
-          name: "TypeScript",
-          iconifyClass: "logos-typescript",
+          name: "Kotlin",
+          iconifyClass: "logos-kotlin",
+        },
+        {
+          name: "Java",
+          iconifyClass: "logos-java",
+        },
+        {
+          name: "Android",
+          iconifyClass: "logos-android",
         },
       ],
     },
     {
       id: "3",
-      name: "top-crypto-gainers",
-      url: "https://github.com/harikanani/top-crypto-gainers",
+      name: "NerkhName App",
+      url: "https://b2n.ir/g18277",
       description:
-        "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
+        "Real-time Currency exchange price status Android application.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Kotlin",
+          iconifyClass: "logos-kotlin",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "Android",
+          iconifyClass: "logos-android",
         },
       ],
     },
     {
       id: "4",
-      name: "personal-portfolio",
-      url: "https://github.com/harikanani/personal-portfolio",
+      name: "Zooril App",
+      url: "https://b2n.ir/p21933",
       description:
-        "A simple command line interface based quiz app to know more about me :).",
+        "A smart Application for Zooril smart home kit's clients to control devices.",
       languages: [
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "Java",
+          iconifyClass: "logos-java",
         },
         {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "node_express_crud_api_starter",
-      url: "https://github.com/harikanani/node_express_crud_api_starter",
-      description: "Simple NodeJS Express CRUD Operations API starter.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "node-web-scrapper",
-      url: "https://github.com/harikanani/node-web-scrapper",
-      description:
-        "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
+          name: "Android",
+          iconifyClass: "logos-android",
         },
       ],
     },
     {
       id: "5",
-      name: "harikanani.github.io",
-      url: "https://github.com/harikanani/harikanani.github.io",
+      name: "Aapks Store App",
+      url: "https://aapks.com/",
       description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
+        "AAPKS (Android APKs) is an App store application for android OS. It uses aptoide webservice.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Java",
+          iconifyClass: "logos-java",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Automate Attendace",
-      url: "https://github.com/harikanani/Node_Python",
-      description: "Automation of Online Attendance using node js and python",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Automate Discord Bot",
-      url: "https://github.com/harikanani/AutomateDiscordBot",
-      description:
-        "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Python Selenium",
-          iconifyClass: "logos-selenium",
-        },
-        {
-          name: "Chromium Browser",
-          iconifyClass: "openmoji-chromium",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Flask Blog",
-      url: "https://github.com/harikanani/flask_blog",
-      description: "A Simple Blog Web Application made using Flask Framework",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Netflix top series",
-      url: "https://github.com/harikanani/netflix-top-series",
-      description: "List of Top Netflix Series which is deployed to vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description:
-        "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Food Order Static Website",
-      url: "https://github.com/harikanani/food-order-website",
-      description:
-        "A simple static website related to food restaurants service. this is reasponsive as well.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
+          name: "Android",
+          iconifyClass: "logos-android",
         },
       ],
     },

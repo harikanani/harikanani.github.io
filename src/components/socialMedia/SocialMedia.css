@@ -44,7 +44,7 @@
 
 .github i:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #333;
+  box-shadow: 0 5px 15px rgb(80, 80, 80);
 }
 
 .gitlab i {
@@ -53,8 +53,8 @@
 }
 
 .gitlab i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #333;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px #ffcc52;
 }
 
 .google i {
@@ -65,6 +65,16 @@
 .google i:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px #ea4335;
+}
+
+.telegram i {
+  background-color: #1da1f2;
+  transition: all 0.2s ease-in-out;
+}
+
+.telegram i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #1da1f2;
 }
 
 .twitter i {

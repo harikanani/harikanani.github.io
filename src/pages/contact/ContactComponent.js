@@ -56,29 +56,6 @@ function Contact(props) {
             </div>
           </div>
         </Fade>
-        <Fade bottom duration={1000} distance="40px">
-          <div className="blog-heading-div">
-            <div className="blog-heading-text-div">
-              <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                {blogSection["title"]}
-              </h1>
-              <p
-                className="blog-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {blogSection["subtitle"]}
-              </p>
-              <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Twitter Profile
-                </a>
-              </div>
-            </div>
-            <div className="blog-heading-img-div">
-              <BlogsImg theme={theme} />
-            </div>
-          </div>
-        </Fade>
       </div>
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
