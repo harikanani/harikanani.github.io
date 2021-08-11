@@ -22,3 +22,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package - Copy.json
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/Portfolio.iml
+/.idea/codeStyles/Project.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
