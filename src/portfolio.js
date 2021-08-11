@@ -234,9 +234,9 @@ const degrees = {
       alt_name: "BSC",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have studied core subjects like Data Structures, DBMS, Artificial intelligence (AI), Security, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ Teacher Assistant (TA) for 2 years in 2 C++ Programming Courses (Foundation and Advanced)",
       ],
       website_link: "https://ce.semnan.ac.ir/",
     },
