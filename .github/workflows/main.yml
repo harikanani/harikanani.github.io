@@ -1,0 +1,57 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Build app
+        run: |
+          echo * Npm install *
+          npm i
+          echo *** Building app ***
+          CI=''; npm run build
+      - name: Initial branch
+        run: |
+          mv build/ ../
+          rm -rf *
+          rm -rf .github
+          mv ../build/* .
+          git init
+      - name: Create cname for amiranmanesh.ir
+        run: echo 'amiranmanesh.ir' > CNAME
+      - name: Github
+        run: |
+          git config --local user.email "iranmanesh.ah@gmail.com"
+          git config --local user.name "Amir Iranmanesh"
+          git add -A
+          git commit -m "Initial commit"
+      - uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{secrets.GH_TOKEN}}
+          force: true
+          branch: gh-pages
+    

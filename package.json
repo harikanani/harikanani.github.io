@@ -1,7 +1,11 @@
 {
   "private": true,
-  "name": "personalPortfolio",
-  "homepage": "http://harikanani.github.io/PortfolioV2",
+  "name": "PersonalPortfolio",
+  "homepage": "https://amiranmanesh.ir",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amiranmanesh/Portfolio"
+  },
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
