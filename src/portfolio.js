@@ -30,7 +30,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/iranmanesh.ah/",
   twitter: "https://twitter.com/amiranmanesh/",
   instagram: "https://www.instagram.com/amiranmanesh/",
-  telegram: "https://www.instagram.com/amiranmanesh/",
+  telegram: "https://t.me/iranmanesh_ah/",
 };
 
 const skills = {
