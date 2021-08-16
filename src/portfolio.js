@@ -316,7 +316,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
 };
