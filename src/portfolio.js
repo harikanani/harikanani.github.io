@@ -29,7 +29,7 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/harikanani",
   facebook: "https://www.facebook.com/harikrishan.kanani/",
   twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/kanani_025/",
+  instagram: "https://www.instagram.com/hari_kanani_/",
 };
 
 const skills = {
@@ -275,11 +275,25 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      title: "Shantilal Shah Engineering College",
+      subtitle: "Bachelor in Information Technology",
+      logo_path: "ssec.png",
+      alt_name: "SSEC",
+      duration: "2021 - Present",
+      descriptions: [
+        "⚡ I'm currently pursuing my bachelors in Information Technology."
+        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+      ],
+      website_link: "http://www.ssgec.ac.in/",
+    },
+    {
       title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
       subtitle: "Diploma in Information Technology",
       logo_path: "ssgandhy.png",
-      alt_name: "SETI",
-      duration: "2018 - Present",
+      alt_name: "SSGC",
+      duration: "2018 - 2021",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
@@ -307,7 +321,7 @@ const certifications = {
       subtitle: "Hack The Mountains",
       logo_path: "hackathon1.svg",
       certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
       alt_name: "hackathon",
       color_code: "#E2405F",
     },
@@ -341,11 +355,11 @@ const certifications = {
     },
     {
       title: "Hack20",
-      subtitle: "Flutter Internation Hackathon",
+      subtitle: "Flutter International Hackathon",
       logo_path: "flutter.png",
       certificate_link:
         "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter Internation Hackathon",
+      alt_name: "Flutter International Hackathon",
       color_code: "#2AAFED",
     },
     {
@@ -389,7 +403,13 @@ const experience = {
           duration: "Oct 2020 - Mar 2021",
           location: "Office",
           description:
-            "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          `Train, manage and provide guidance to junior software development staff.
+          Work closely with the Project Manager and Team Leads on change request functions.
+          Develops new and maintains existing applications.
+          Increased productivity and problem-solving technics by 20%.
+          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
+          `,
+            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
@@ -400,7 +420,10 @@ const experience = {
           duration: "Sep 2020 - Oct 2020",
           location: "Work From Home",
           description:
-            "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          `Work closely with the Client and Team on change request functions.
+          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
+          `,
+            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         }
       ],
@@ -793,6 +816,30 @@ const projects = {
         {
           name: "PHP",
           iconifyClass: "logos-php",
+        },
+      ],
+    },
+    {
+      id: "12",
+      name: "NFT Launchpad",
+      url: "https://deliquescent-cents.000webhostapp.com/",
+      description: "NFT Launchpad crypto site portfolio",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "logos-html-5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "logos-css-3",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
         },
       ],
     },
