@@ -5,12 +5,11 @@ import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FullStackImg from "./FullStackImg";
 import MathematicsImg from "./MathematicsImg";
-import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "FullStackImg")
     return <FullStackImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  return <MathematicsImg theme={props.theme} />;
 }
 
 function SkillSection(props) {
