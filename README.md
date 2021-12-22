@@ -2,8 +2,6 @@
 
 ![PortfolioV2](/images/portfolio1.gif)
 
-### A clean portfolio template. (Readme will be updated soon)
-
 # Sections
 
 - Home
@@ -11,12 +9,6 @@
 - Experience
 - Projects
 - Contact and Resume
-
-# How To Use
-
-- Clone this repository (or fork, then clone your fork :) )
-- Run `npm i`
-- Check it out using `npm start`
 
 # How Do I Customize
 
@@ -42,8 +34,7 @@
 - Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
 - The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
 
-Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
-
+Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.
 
 # Technologies used 🛠️
 
