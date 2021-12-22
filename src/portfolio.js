@@ -24,8 +24,6 @@ const socialMediaLinks = {
   twitter: "https://twitter.com/TimAmburn",
 };
 
-let skillsKey = 0;
-
 const skills = {
   data: [
     {
@@ -40,7 +38,6 @@ const skills = {
       ],
       softwareSkills: [
         {
-          key: skillsKey++,
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
@@ -136,7 +133,7 @@ const skills = {
     },
     {
       title: "Life Long Learner",
-      fileName: "CloudInfraImg",
+      fileName: "MathematicsImg",
       skills: [
         "⚡ Experience working on team projects",
         "⚡ Experience in Agile/Scrum practices",
