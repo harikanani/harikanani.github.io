@@ -14,12 +14,15 @@ function GetSkillSvg(props) {
 
 function SkillSection(props) {
   const theme = props.theme;
+  let key = 0;
+
   return (
     <div>
       {skills.data.map((skill, index) => {
+        key++;
         if (index % 2 === 0) {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={key}>
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
@@ -38,8 +41,10 @@ function SkillSection(props) {
                 <Fade right duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence) => {
+                      key++;
                       return (
                         <p
+                          key={key}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
@@ -54,7 +59,7 @@ function SkillSection(props) {
           );
         } else {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={key}>
               <div className="skills-text-div">
                 <Fade left duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
@@ -67,8 +72,10 @@ function SkillSection(props) {
                 <Fade left duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence) => {
+                      key++;
                       return (
                         <p
+                          key={key}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >

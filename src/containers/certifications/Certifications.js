@@ -6,6 +6,8 @@ import CertificationCard from "../../components/certificationCard/CertificationC
 
 function Certifications(props) {
   const theme = props.theme;
+  let key = 0;
+
   return (
     <div className="main" id="certs">
       <div className="certs-header-div">
@@ -17,7 +19,10 @@ function Certifications(props) {
       </div>
       <div className="certs-body-div">
         {certifications.certifications.map((cert) => {
-          return <CertificationCard certificate={cert} theme={theme} />;
+          key++;
+          return (
+            <CertificationCard certificate={cert} theme={theme} key={key} />
+          );
         })}
       </div>
     </div>

@@ -160,6 +160,7 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      id: 0,
       title: "Temple University Japan Campus",
       subtitle: "Bachelor in International Business Studies",
       logo_path: "templeLogo.jpg",
@@ -171,6 +172,7 @@ const degrees = {
       website_link: "https://www.tuj.ac.jp/",
     },
     {
+      id: 1,
       title: "Sabio",
       subtitle: "Coding Bootcamp",
       logo_path: "sabioLogo.jpg",
