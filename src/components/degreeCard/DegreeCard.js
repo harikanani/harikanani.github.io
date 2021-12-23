@@ -45,6 +45,8 @@ function DegreeCard(props) {
     },
   });
 
+  let key = 0;
+
   const button_visit = style({
     textDecoration: "none",
     color: "rgba(255, 255, 255, 1)",
@@ -102,10 +104,15 @@ function DegreeCard(props) {
               </h3>
             </div>
           </div>
-          <div classname="body-content">
+          <div className="body-content">
             {degree.descriptions.map((sentence) => {
+              key++;
               return (
-                <p className="content-list" style={{ color: theme.text }}>
+                <p
+                  key={key}
+                  className="content-list"
+                  style={{ color: theme.text }}
+                >
                   {sentence}
                 </p>
               );
