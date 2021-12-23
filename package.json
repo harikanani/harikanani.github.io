@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "http://harikanani.github.io/PortfolioV2",
+  "homepage": "http://tima314.github.io/",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",

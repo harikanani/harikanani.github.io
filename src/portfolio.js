@@ -1,4 +1,3 @@
-// Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
@@ -13,7 +12,7 @@ const greeting = {
   full_name: "Tim Amburn",
   subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
+    "https://docs.google.com/document/d/1Puu_hDB9eTthST5BdIC77mLNZEBK9op8VfbnXT85AeA/edit?usp=sharing",
   mail: "softwaredeveloper@tima.mailer.me",
 };
 
@@ -30,11 +29,10 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+        "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Creating application backend in Node, Express & ASP.NET",
+        "⚡ Creating / Managing / Analyzing databases using Microsoft SQL Server",
       ],
       softwareSkills: [
         {
@@ -165,7 +163,7 @@ const degrees = {
       title: "Temple University Japan Campus",
       subtitle: "Bachelor in International Business Studies",
       logo_path: "templeLogo.jpg",
-      alt_name: "",
+      alt_name: "Temple Logo",
       duration: "2016 - 2019",
       descriptions: [
         "⚡ I have graduated with a Major in International Business and a Minor in Economics.",
@@ -175,8 +173,8 @@ const degrees = {
     {
       title: "Sabio",
       subtitle: "Coding Bootcamp",
-      logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
+      logo_path: "sabioLogo.jpg",
+      alt_name: "Sabio Logo",
       duration: "2021 - 2022",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
@@ -279,7 +277,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create React Projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub.",
+    "My projects make use of a vast variety of the latest tools. I am most experienced in creating React Projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -313,28 +311,27 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
         {
-          name: "C#",
-          iconifyClass: "logos-dotnet",
-        },
-        {
           name: "React",
           iconifyClass: "logos-react",
         },
+        {
+          name: "C#",
+          iconifyClass: "logos-dotnet",
+        },
       ],
     },
-    // {
-    //   id: "2",
-    //   name: "Automate Discord Bot",
-    //   url: "",
-    //   description:
-    //     "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-    //   languages: [
-    //     {
-    //       name: "Python",
-    //       iconifyClass: "logos-python",
-    //     },
-    //   ],
-    // },
+    {
+      id: "2",
+      name: "Comic Book Galery",
+      url: "https://github.com/TimA314/ComicBookGallery",
+      description: "A practice gallery website made fully with C#.",
+      languages: [
+        {
+          name: "C#",
+          iconifyClass: "logos:c-sharp",
+        },
+      ],
+    },
   ],
 };
 
