@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "http://tima314.github.io/",
+  "homepage": "http://tima314.github.io/portfolio",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
@@ -15,7 +15,7 @@
     "baseui": "^9.109.0",
     "bootstrap": "^4.6.0",
     "fs": "0.0.1-security",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "glamor": "^2.20.40",
     "node-fetch": "^2.6.1",
     "node-sass": "^5.0.0",
