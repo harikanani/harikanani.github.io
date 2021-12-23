@@ -1,7 +1,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -164,8 +164,8 @@ const degrees = {
     {
       title: "Temple University Japan Campus",
       subtitle: "Bachelor in International Business Studies",
-      // logo_path: "",
-      // alt_name: "",
+      logo_path: "templeLogo.jpg",
+      alt_name: "",
       duration: "2016 - 2019",
       descriptions: [
         "⚡ I have graduated with a Major in International Business and a Minor in Economics.",
@@ -191,22 +191,22 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Google IT Support Professional Certificate",
+      subtitle: "Coursera",
+      logo_path: "googleCertsIT.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
+        "https://www.credly.com/badges/773b04f3-3e85-4ea9-b56f-afcc8606869e?source=linked_in_profile",
+      alt_name: "Google IT Support Professional",
       // color_code: "#2AAFED",
-      color_code: "#47A048",
+      color_code: "#2a73cc",
     },
     {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
+      title: "CompTia A+ Certification",
+      subtitle: "A+",
+      logo_path: "compTIAA2Bce.png",
       certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
+        "https://www.credly.com/badges/1c28758a-5763-4d81-b470-325ff55c6198?source=linked_in_profile",
+      alt_name: "A+",
       // color_code: "#f36c3d",
       color_code: "#fffbf3",
     },
@@ -287,7 +287,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profilepic.jpeg",
+    profile_image_path: "",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -295,7 +295,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+    link: "https://twitter.com/TimAmburn",
     avatar_image_path: "blogs_image.svg",
   },
 };
