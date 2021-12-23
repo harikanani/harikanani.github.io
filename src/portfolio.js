@@ -292,9 +292,9 @@ const contactPageData = {
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Want to learn more",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
+      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I share on Twitter.",
     link: "https://twitter.com/TimAmburn",
     avatar_image_path: "blogs_image.svg",
   },
