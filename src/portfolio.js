@@ -210,6 +210,16 @@ const certifications = {
       // color_code: "#f36c3d",
       color_code: "#fffbf3",
     },
+    {
+      title: "SQL Essential Training",
+      subtitle: "SQL",
+      logo_path: "sql-logo.jpg",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/3bad36b46e1c854160459065654f93b14419856c30d2a783521ac26161ce18ae?trk=share_certificate",
+      alt_name: "SQL",
+      // color_code: "#f36c3d",
+      color_code: "#aaddd8",
+    },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
