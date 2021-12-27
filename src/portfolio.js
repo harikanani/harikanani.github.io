@@ -138,13 +138,13 @@ const skills = {
         "⚡ Whats next",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "Firebase",
-        //   fontAwesomeClassname: "simple-icons:firebase",
-        //   style: {
-        //     color: "#FFCA28",
-        //   },
-        // },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
         // {
         //   skillName: "Docker",
         //   fontAwesomeClassname: "simple-icons:docker",
