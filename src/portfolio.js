@@ -12,7 +12,7 @@ const greeting = {
   full_name: "Tim Amburn",
   subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://docs.google.com/document/d/1Puu_hDB9eTthST5BdIC77mLNZEBK9op8VfbnXT85AeA/edit?usp=sharing",
+    "https://docs.google.com/document/d/1Sgq2qhPQ9S_hoveuRe-rwDaa0a490JhBrWTTeJm4IJI/edit?usp=sharing",
   mail: "softwaredeveloper@tima.mailer.me",
 };
 
@@ -31,7 +31,7 @@ const skills = {
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend in Node, Express & ASP.NET",
+        "⚡ Creating application backend in Node & ASP.NET",
         "⚡ Creating / Managing / Analyzing databases using Microsoft SQL Server",
       ],
       softwareSkills: [
@@ -130,12 +130,13 @@ const skills = {
       ],
     },
     {
-      title: "Life Long Learner",
+      title: "What I can do",
       fileName: "MathematicsImg",
       skills: [
-        "⚡ Experience working on team projects",
-        "⚡ Experience in Agile/Scrum practices",
-        "⚡ Whats next",
+        "⚡ Proficiency in the effective use of web development applications and software tools such as: ASP.net C#/.Net, RESTFUL API Design, MVC, Data Access, Object-Oriented Design, Data Structures, Data Access, Singleton, Caching Strategies, Database Design, Query Structure and Stored Procedures.",
+        "⚡ Ability and skills to develop cross-browser applications targeting both desktop and mobile clients via responsive design through HTML5, CCS3, JavaScript, jQuery, Knockout.js or AngularJs or another client side MVC and/or MVVM application framework.",
+        "⚡ Use of team communication and development strategies such as Agile/Scrum Methodologies used in Technical Project Management, Product Development, Team & Project Based Learning, Pair Programing, and Developer Code Reviews.",
+        "⚡Ability to work with and integrate current leading developer tools and APIs such as AWS, SendGrid, Google API's, Git, Trello, and Twilio, Browser Developer Tools and integrated developer environments (IDE’s) such as Visual Studio.",
       ],
       softwareSkills: [
         {
@@ -160,6 +161,20 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      id: 1,
+      title: "Sabio",
+      subtitle: "Coding Bootcamp",
+      logo_path: "sabioLogo.jpg",
+      alt_name: "Sabio Logo",
+      duration: "2021 - 2022",
+      descriptions: [
+        "⚡ I have intensively studied web design principles and standards.",
+        "⚡ I have also gained Knowledge to apply the Software Development Life Cycle principles to design, develop, implement and maintain functional full stack web applications",
+        "⚡ I have the ability and skills to build out a service oriented (SOA) application program interface (API) and the corresponding back end database.",
+      ],
+      website_link: "https://sabio.la/",
+    },
+    {
       id: 0,
       title: "Temple University Japan Campus",
       subtitle: "Bachelor in International Business Studies",
@@ -170,20 +185,6 @@ const degrees = {
         "⚡ I have graduated with a Major in International Business and a Minor in Economics.",
       ],
       website_link: "https://www.tuj.ac.jp/",
-    },
-    {
-      id: 1,
-      title: "Sabio",
-      subtitle: "Coding Bootcamp",
-      logo_path: "sabioLogo.jpg",
-      alt_name: "Sabio Logo",
-      duration: "2021 - 2022",
-      descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-      ],
-      website_link: "https://sabio.la/",
     },
   ],
 };
@@ -304,7 +305,7 @@ const contactPageData = {
   blogSection: {
     title: "Want to learn more",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I share on Twitter.",
+      "I don't blog frequently but when I find something awesome, I do try to share it so it can be helpful to others.",
     link: "https://twitter.com/TimAmburn",
     avatar_image_path: "blogs_image.svg",
   },
