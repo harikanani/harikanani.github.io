@@ -3,7 +3,10 @@
   Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
   Illustrations: https://undraw.co/
 
-  <img src="https://i.postimg.cc/KYCLWf6W/portfolio-snapshot.jpg" alt="website screenshot" />
-
+  <img src="https://i.postimg.cc/KYCLWf6W/portfolio-snapshot.jpg" width="600" alt="website screenshot" />
+  
+  Learn about my skills, experience and projects that I am working on.🛠️ 🧰
+  
+  
 
 
