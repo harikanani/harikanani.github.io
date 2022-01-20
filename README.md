@@ -7,6 +7,13 @@
   
   Learn about my skills, experience and projects that I am working on.🛠️ 🧰
   
-  
+  Technologies used 🛠️
+    React
+    graphql
+    apollo-boost
+    baseui
+    react-reveal
+    styled-components
+
 
 
