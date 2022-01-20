@@ -5,7 +5,7 @@
 
   <img src="https://i.postimg.cc/KYCLWf6W/portfolio-snapshot.jpg" width="600" alt="website screenshot" />
   
-  ### Learn about my skills, experience and projects that I am working on.🛠️ 
+  ### A responsive web app to learn about my skills, experience and projects that I am working on.🛠️ 
   
   ## Technologies used 🧰 <br>
     ✨ React <br>
