@@ -30,8 +30,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
         "⚡ Creating application backend in Node & ASP.NET",
+        "⚡ Building responsive website front end using ReactJS",
         "⚡ Creating / Managing / Analyzing databases using Microsoft SQL Server",
       ],
       softwareSkills: [
@@ -133,10 +133,10 @@ const skills = {
       title: "What I can do",
       fileName: "MathematicsImg",
       skills: [
-        "⚡ Proficiency in the effective use of web development applications and software tools such as: ASP.net C#/.Net, RESTFUL API Design, MVC, Data Access, Object-Oriented Design, Data Structures, Data Access, Singleton, Caching Strategies, Database Design, Query Structure and Stored Procedures.",
-        "⚡ Ability and skills to develop cross-browser applications targeting both desktop and mobile clients via responsive design through HTML5, CCS3, JavaScript, jQuery, Knockout.js or AngularJs or another client side MVC and/or MVVM application framework.",
-        "⚡ Use of team communication and development strategies such as Agile/Scrum Methodologies used in Technical Project Management, Product Development, Team & Project Based Learning, Pair Programing, and Developer Code Reviews.",
-        "⚡Ability to work with and integrate current leading developer tools and APIs such as AWS, SendGrid, Google API's, Git, Trello, and Twilio, Browser Developer Tools and integrated developer environments (IDE’s) such as Visual Studio.",
+        "⚡ Skills to develop cross-browser applications targeting both desktop and mobile clients via responsive design.",
+        "⚡ Team communication and development strategies such as Agile/Scrum Methodologies.",
+        "⚡ Integrate current leading developer tools and APIs such as AWS, SendGrid, Google API's, Git, Trello, and Twilio, Browser Developer Tools and integrated developer environments (IDE’s) such as Visual Studio.",
+        "⚡ Proficient in web development tools such as: ASP.net C#/.Net, RESTFUL API Design, MVC, Data Access, Object-Oriented Design, Data Structures, Data Access, Singleton, Caching Strategies, Database Design, Query Structure and Stored Procedures.",
       ],
       softwareSkills: [
         {
@@ -315,9 +315,9 @@ const projects = {
   data: [
     {
       id: "1",
-      name: "Sabio Project",
+      name: "World Print",
       url: "",
-      description: "stuff about project here",
+      description: "A custom clothing e-commerce site",
       languages: [
         {
           name: "JavaScript",
@@ -331,10 +331,35 @@ const projects = {
           name: "C#",
           iconifyClass: "logos-dotnet",
         },
+        {
+          name: "SQL",
+          iconifyClass: "carbon:sql",
+        },
       ],
     },
     {
       id: "2",
+      name: "CoinLand",
+      url: "https://coin-land-01.web.app/",
+      description:
+        "A live full stack web app to view insightful news and stats for CryptoCurrencies. See up to date charts and stats for all of the top coins.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Nodejs",
+          iconifyClass: "logos-nodejs-icon",
+        },
+      ],
+    },
+    {
+      id: "3",
       name: "Comic Book Galery",
       url: "https://github.com/TimA314/ComicBookGallery",
       description: "A practice gallery website made fully with C#.",
@@ -342,6 +367,40 @@ const projects = {
         {
           name: "C#",
           iconifyClass: "logos:c-sharp",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "WebScraper",
+      url: "https://github.com/TimA314/webscraper",
+      description:
+        "A simple webscraper that can gather desired information from any website.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Nodejs",
+          iconifyClass: "logos-nodejs-icon",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "AltIpsum",
+      url: "https://github.com/TimA314/altipsum",
+      description:
+        "A website to generate a variety of Lorem Ipsum ranging from shakespear to the latest news.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
         },
       ],
     },
