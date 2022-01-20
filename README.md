@@ -8,12 +8,12 @@
   ### A responsive web app to learn about my skills, experience and projects that I am working on.🛠️ 
   
   ## Technologies used 🧰 <br>
-    ✨ React <br>
-    ✨ graphql <br>
-    ✨ apollo-boost <br>
-    ✨ baseui <br>
-    ✨ react-reveal <br>
-    ✨ styled-components <br>
+    ✨ React 
+    ✨ graphql 
+    ✨ apollo-boost 
+    ✨ baseui 
+    ✨ react-reveal 
+    ✨ styled-components 
 
 
 
