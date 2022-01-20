@@ -5,15 +5,15 @@
 
   <img src="https://i.postimg.cc/KYCLWf6W/portfolio-snapshot.jpg" width="600" alt="website screenshot" />
   
-  Learn about my skills, experience and projects that I am working on.🛠️ 🧰
+  ##Learn about my skills, experience and projects that I am working on.🛠️ 
   
-  Technologies used 🛠️
-    React
-    graphql
-    apollo-boost
-    baseui
-    react-reveal
-    styled-components
+  ### Technologies used 🧰 <br>
+    ✨ React <br>
+    ✨ graphql <br>
+    ✨ apollo-boost <br>
+    ✨ baseui <br>
+    ✨ react-reveal <br>
+    ✨ styled-components <br>
 
 
 
