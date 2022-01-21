@@ -11,8 +11,7 @@ const greeting = {
   logo_name: "tim.a()",
   full_name: "Tim Amburn",
   subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
-  resumeLink:
-    "https://docs.google.com/document/d/1Sgq2qhPQ9S_hoveuRe-rwDaa0a490JhBrWTTeJm4IJI/edit?usp=sharing",
+  resumeLink: "https://bit.ly/3KpX0Zc",
   mail: "softwaredeveloper@tima.mailer.me",
 };
 
@@ -160,20 +159,20 @@ const skills = {
 
 const degrees = {
   degrees: [
-    {
-      id: 1,
-      title: "Sabio",
-      subtitle: "Coding Bootcamp",
-      logo_path: "sabioLogo.jpg",
-      alt_name: "Sabio Logo",
-      duration: "2021 - 2022",
-      descriptions: [
-        "⚡ I have intensively studied web design principles and standards.",
-        "⚡ I have also gained Knowledge to apply the Software Development Life Cycle principles to design, develop, implement and maintain functional full stack web applications",
-        "⚡ I have the ability and skills to build out a service oriented (SOA) application program interface (API) and the corresponding back end database.",
-      ],
-      website_link: "https://sabio.la/",
-    },
+    // {
+    //   id: 1,
+    //   title: "Sabio",
+    //   subtitle: "Coding Bootcamp",
+    //   logo_path: "sabioLogo.jpg",
+    //   alt_name: "Sabio Logo",
+    //   duration: "2021 - 2022",
+    //   descriptions: [
+    //     "⚡ I have intensively studied web design principles and standards.",
+    //     "⚡ I have also gained Knowledge to apply the Software Development Life Cycle principles to design, develop, implement and maintain functional full stack web applications",
+    //     "⚡ I have the ability and skills to build out a service oriented (SOA) application program interface (API) and the corresponding back end database.",
+    //   ],
+    //   website_link: "https://sabio.la/",
+    // },
     {
       id: 0,
       title: "Temple University Japan Campus",
@@ -245,6 +244,16 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Full Stack Engineer",
+          company: "World Print",
+          company_url: "https://worldprints.azurewebsites.net/",
+          logo_path: "worldprintlogo.png",
+          duration: "Nov 2021 - Present",
+          location: "Work From Home",
+          description: `Full Stack Software Engineer. Responsible for development of the product orders and order detail components and assisted in the development of venue and event components for a not-for-profit business software application.`,
+          color: "#010e75",
+        },
+        {
           title: "Web Support",
           company: "US Bank",
           company_url: "https://www.usbank.com/index.html",
@@ -252,7 +261,7 @@ const experience = {
           duration: "May 2020 - September 2021",
           location: "Work From Home",
           description: `Answer incoming card member calls regarding online access and service questions or issues.  Maintain the highest level of professionalism by establishing a positive rapport with each card member while documenting and resolving technical issues.`,
-          color: "#ee3c26",
+          color: "#1b3d00",
         },
         {
           title: "Aerospace Maintenance Technician",
