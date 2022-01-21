@@ -6,7 +6,6 @@ export default function DesignImg(props) {
     <svg
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
-      // xmlns:xlink="http://www.w3.org/1999/xlink"
       width="1164.07"
       height="555.93"
       viewBox="0 0 1164.07 555.93"
@@ -30,7 +29,6 @@ export default function DesignImg(props) {
           y1="533.62"
           x2="458.12"
           y2="533.62"
-          // xlink:href="#ac59aa7e-40f5-4d5f-b82f-fdd6bf7d03ee"
         />
         <linearGradient
           id="060ac890-45f2-497a-b51d-740a183b02f3"
@@ -39,7 +37,6 @@ export default function DesignImg(props) {
           x2="-1193.63"
           y2="383.52"
           gradientTransform="translate(1997.33)"
-          // xlink:href="#ac59aa7e-40f5-4d5f-b82f-fdd6bf7d03ee"
         />
       </defs>
       <title>design tools</title>

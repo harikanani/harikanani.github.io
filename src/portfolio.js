@@ -11,7 +11,8 @@ const greeting = {
   logo_name: "tim.a()",
   full_name: "Tim Amburn",
   subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
-  resumeLink: "https://bit.ly/3KpX0Zc",
+  resumeLink:
+    "https://www.yumpu.com/en/document/read/66248654/timothy-amburn-resume",
   mail: "softwaredeveloper@tima.mailer.me",
 };
 
@@ -77,13 +78,6 @@ const skills = {
             color: "#CB3837",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
         {
           skillName: "Microsoft SQL Server",
           fontAwesomeClassname: "simple-icons:microsoftsqlserver",
@@ -119,6 +113,13 @@ const skills = {
             color: "#E94E32",
           },
         },
+        // {
+        //   skillName: "GraphQL",
+        //   fontAwesomeClassname: "simple-icons:graphql",
+        //   style: {
+        //     color: "#DE33A6",
+        //   },
+        // },
         // {
         //   skillName: "Python",
         //   fontAwesomeClassname: "simple-icons:python",
@@ -159,20 +160,6 @@ const skills = {
 
 const degrees = {
   degrees: [
-    // {
-    //   id: 1,
-    //   title: "Sabio",
-    //   subtitle: "Coding Bootcamp",
-    //   logo_path: "sabioLogo.jpg",
-    //   alt_name: "Sabio Logo",
-    //   duration: "2021 - 2022",
-    //   descriptions: [
-    //     "⚡ I have intensively studied web design principles and standards.",
-    //     "⚡ I have also gained Knowledge to apply the Software Development Life Cycle principles to design, develop, implement and maintain functional full stack web applications",
-    //     "⚡ I have the ability and skills to build out a service oriented (SOA) application program interface (API) and the corresponding back end database.",
-    //   ],
-    //   website_link: "https://sabio.la/",
-    // },
     {
       id: 0,
       title: "Temple University Japan Campus",
@@ -181,7 +168,7 @@ const degrees = {
       alt_name: "Temple Logo",
       duration: "2016 - 2019",
       descriptions: [
-        "⚡ I have graduated with a Major in International Business and a Minor in Economics.",
+        "⚡ Major in International Business and a Minor in Economics.",
       ],
       website_link: "https://www.tuj.ac.jp/",
     },
@@ -197,7 +184,6 @@ const certifications = {
       certificate_link:
         "https://www.credly.com/badges/773b04f3-3e85-4ea9-b56f-afcc8606869e?source=linked_in_profile",
       alt_name: "Google IT Support Professional",
-      // color_code: "#2AAFED",
       color_code: "#2a73cc",
     },
     {
@@ -207,7 +193,6 @@ const certifications = {
       certificate_link:
         "https://www.credly.com/badges/1c28758a-5763-4d81-b470-325ff55c6198?source=linked_in_profile",
       alt_name: "A+",
-      // color_code: "#f36c3d",
       color_code: "#fffbf3",
     },
     {
@@ -217,18 +202,8 @@ const certifications = {
       certificate_link:
         "https://www.linkedin.com/learning/certificates/3bad36b46e1c854160459065654f93b14419856c30d2a783521ac26161ce18ae?trk=share_certificate",
       alt_name: "SQL",
-      // color_code: "#f36c3d",
       color_code: "#aaddd8",
     },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 

@@ -10,7 +10,6 @@ export default function MathematicsImg(props) {
       width="100%"
       height="100%"
       viewBox="0 0 654.23657 682.11354"
-      //xmlns:xlink="http://www.w3.org/1999/xlink"
     >
       <title>mathematics</title>
       <path
