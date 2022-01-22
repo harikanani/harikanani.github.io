@@ -225,7 +225,7 @@ const experience = {
           logo_path: "worldprintlogo.png",
           duration: "Nov 2021 - Present",
           location: "Work From Home",
-          description: `Full Stack Software Engineer. Responsible for development of the product orders and order detail components and assisted in the development of venue and event components for a not-for-profit business software application.`,
+          description: `Full Stack Software Engineer. Responsible for development of the product orders and order detail components and assist in the development of venue and event components for a not-for-profit business software application.`,
           color: "#010e75",
         },
         {
@@ -299,30 +299,6 @@ const projects = {
   data: [
     {
       id: "1",
-      name: "World Print",
-      url: "",
-      description: "A custom clothing e-commerce site",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "C#",
-          iconifyClass: "logos-dotnet",
-        },
-        {
-          name: "SQL",
-          iconifyClass: "carbon:sql",
-        },
-      ],
-    },
-    {
-      id: "2",
       name: "CoinLand",
       url: "https://coin-land-01.web.app/",
       description:
@@ -343,7 +319,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "2",
       name: "Comic Book Galery",
       url: "https://github.com/TimA314/ComicBookGallery",
       description: "A practice gallery website made fully with C#.",
@@ -355,7 +331,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "3",
       name: "WebScraper",
       url: "https://github.com/TimA314/webscraper",
       description:
@@ -372,7 +348,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "4",
       name: "AltIpsum",
       url: "https://github.com/TimA314/altipsum",
       description:
