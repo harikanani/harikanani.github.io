@@ -7,7 +7,7 @@ export default function Projects() {
 
   return (
     <div className="main" id="opensource">
-      <h1 className="project-title">Open Source Projects</h1>
+      <h1 className="project-title">My Projects</h1>
       <div className="repo-cards-div-main">
         {repo.map((v, i) => {
           return <ProjectCard repo={v} key={v.node.id} />;

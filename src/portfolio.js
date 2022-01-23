@@ -225,7 +225,7 @@ const experience = {
           logo_path: "worldprintlogo.png",
           duration: "Nov 2021 - Present",
           location: "Work From Home",
-          description: `Full Stack Software Engineer. Responsible for development of the product orders and order detail components and assist in the development of venue and event components for a not-for-profit business software application.`,
+          description: `Full Stack Software Engineer. Responsible for development of venue components and assist in the development of events, and location components for a not-for-profit business software application`,
           color: "#010e75",
         },
         {
