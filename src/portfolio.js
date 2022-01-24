@@ -235,7 +235,7 @@ const experience = {
           logo_path: "usbankLogo.png",
           duration: "May 2020 - September 2021",
           location: "Work From Home",
-          description: `Answer incoming card member calls regarding online access and service questions or issues.  Maintain the highest level of professionalism by establishing a positive rapport with each card member while documenting and resolving technical issues.`,
+          description: `Answer incoming card member calls regarding service questions or issues.  Maintain the highest level of professionalism by establishing a positive rapport with each card member while documenting and resolving technical issues.`,
           color: "#1b3d00",
         },
         {
@@ -320,13 +320,18 @@ const projects = {
     },
     {
       id: "2",
-      name: "Comic Book Galery",
-      url: "https://github.com/TimA314/ComicBookGallery",
-      description: "A practice gallery website made fully with C#.",
+      name: "Dev-Training-Ground",
+      url: "https://github.com/TimA314/dev-training-ground",
+      description:
+        " A react web app that new developers can put their skills to work and gain experience in the open source proccess.",
       languages: [
         {
-          name: "C#",
-          iconifyClass: "logos:c-sharp",
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
         },
       ],
     },
@@ -361,6 +366,18 @@ const projects = {
         {
           name: "React",
           iconifyClass: "logos-react",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "Comic Book Galery",
+      url: "https://github.com/TimA314/ComicBookGallery",
+      description: "A practice gallery website made fully with C#.",
+      languages: [
+        {
+          name: "C#",
+          iconifyClass: "logos:c-sharp",
         },
       ],
     },
