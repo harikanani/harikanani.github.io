@@ -121,12 +121,6 @@ const skills = {
         //   },
         // },
         // {
-        //   skillName: "Python",
-        //   fontAwesomeClassname: "simple-icons:python",
-        //   style: {
-        //     color: "#3776AB",
-        //   },
-        // },
       ],
     },
     {
