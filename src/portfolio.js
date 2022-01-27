@@ -12,7 +12,7 @@ const greeting = {
   full_name: "Tim Amburn",
   subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://www.yumpu.com/en/document/read/66248654/timothy-amburn-resume",
+    "https://docs.google.com/document/d/1Sgq2qhPQ9S_hoveuRe-rwDaa0a490JhBrWTTeJm4IJI/",
   mail: "softwaredeveloper@tima.mailer.me",
 };
 
@@ -171,6 +171,14 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "React (Basic) Certificate",
+      subtitle: "HackerRank",
+      logo_path: "reactLogo.png",
+      certificate_link: "https://www.hackerrank.com/certificates/1fc76e8a3cdc",
+      alt_name: "React",
+      color_code: "#222222",
+    },
     {
       title: "Google IT Support Professional Certificate",
       subtitle: "Coursera",
