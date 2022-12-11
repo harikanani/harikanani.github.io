@@ -3,7 +3,7 @@ import "dotenv/config";
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: process.env.GOOGLE_TRACKING_ID,
 };
 
@@ -272,103 +272,102 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
+      title: "University of Mumbai",
+      subtitle: "Bachelor in Engineering (Computer Engineering)",
+      logo_path: "mu.png",
+      alt_name: "MU",
+      duration: "2017-2021",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
+        "⚡ I have Completed my engineering with the majors in computer science",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgec.ac.in/",
+      website_link: "https://mu.ac.in/",
     },
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
+      title:
+        "Maharashtra State Board of Secondary and Higher Secondary Education",
+      subtitle: "HSC",
+      logo_path: "maha.png",
       alt_name: "SSGC",
-      duration: "2018 - 2021",
+      duration: "2015 - 2017",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have studied  subjects like Physics, Chemistry, Mathematics and Computer Science.",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://www.mahahsscboard.in/",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
-    {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
+    // {
+    //   title: "M0001: MongoDB Basics",
+    //   subtitle: "MongoDB University",
+    //   logo_path: "mongo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
+    //   alt_name: "MongoDB University",
+    //   color_code: "#2AAFED",
+    //   color_code: "#47A048",
+    // },
+    // {
+    //   title: "Hackathon",
+    //   subtitle: "Hack The Mountains",
+    //   logo_path: "hackathon1.svg",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+    //   alt_name: "hackathon",
+    //   color_code: "#E2405F",
+    // },
+    // {
+    //   title: "A300: Atlas Security",
+    //   subtitle: "MongoDB University",
+    //   logo_path: "mongo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+    //   alt_name: "MongoDB University",
+    //   color_code: "#F6B808",
+    //   color_code: "#47A048",
+    // },
+    // {
+    //   title: "Cyber Security & Cyber Forensics",
+    //   subtitle: "Workshop at IIT Bombay",
+    //   logo_path: "iit.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
+    //   alt_name: "Workshop",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "MLH Local Hack Day: Build",
+    //   subtitle: "Major League Hacking",
+    //   logo_path: "mlh-logo.svg",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
+    //   alt_name: "Google",
+    //   color_code: "#fe0037",
+    // },
+    // {
+    //   title: "Hack20",
+    //   subtitle: "Flutter International Hackathon",
+    //   logo_path: "flutter.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
+    //   alt_name: "Flutter International Hackathon",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "Postman Student Expert",
+    //   subtitle: "Postman",
+    //   logo_path: "postman.png",
+    //   certificate_link:
+    //     "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
+    //   alt_name: "Postman",
+    //   color_code: "#f36c3d",
+    //   color_code: "#fffbf3",
+    // },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
