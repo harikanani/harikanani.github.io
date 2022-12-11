@@ -12,7 +12,7 @@
     "test": "react-scripts test"
   },
   "dependencies": {
-    "baseui": "^9.109.0",
+    "baseui": "^9.116.3",
     "bootstrap": "^4.6.0",
     "fs": "0.0.1-security",
     "gh-pages": "^3.1.0",
