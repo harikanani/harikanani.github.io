@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71c560e2017649096d91c11e0b985877",
+    "revision": "8d12b7f78837216d0dd1fa48975581de",
     "url": "/PortfolioV2/index.html"
   },
   {
-    "revision": "79255ff5ac3744d68187",
-    "url": "/PortfolioV2/static/css/main.0dbf7b44.chunk.css"
+    "revision": "e427e46423b9931140a6",
+    "url": "/PortfolioV2/static/css/main.50eba502.chunk.css"
   },
   {
-    "revision": "57886fe34c4156b30553",
-    "url": "/PortfolioV2/static/js/2.7aeebf19.chunk.js"
+    "revision": "9aafe6061b274ba2fb85",
+    "url": "/PortfolioV2/static/js/2.f81c48fd.chunk.js"
   },
   {
-    "revision": "32eaebd0b06f4bb60d5e9e5d0e7cd13e",
-    "url": "/PortfolioV2/static/js/2.7aeebf19.chunk.js.LICENSE.txt"
+    "revision": "c21d579849576bf6a47550572ff70f62",
+    "url": "/PortfolioV2/static/js/2.f81c48fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79255ff5ac3744d68187",
-    "url": "/PortfolioV2/static/js/main.d278e701.chunk.js"
+    "revision": "e427e46423b9931140a6",
+    "url": "/PortfolioV2/static/js/main.e6797cc9.chunk.js"
   },
   {
-    "revision": "fa3d357ccb70488561f4",
-    "url": "/PortfolioV2/static/js/runtime-main.7679bfe3.js"
+    "revision": "34aa3b14f7dec165ab78",
+    "url": "/PortfolioV2/static/js/runtime-main.a7ca9a8c.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -54,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/PortfolioV2/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "074c759bcddffa259a562604f23085a0",
+    "url": "/PortfolioV2/static/media/bauddhikgeeks-transparent.074c759b.png"
+  },
+  {
+    "revision": "f2d490dc98d16b9d7939e8006d0debb7",
+    "url": "/PortfolioV2/static/media/bauddhikgeeks.f2d490dc.png"
   },
   {
     "revision": "a1051a228140c97862ba9a7f321c92b6",

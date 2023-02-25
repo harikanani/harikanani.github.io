@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/PortfolioV2/static/css/main.0dbf7b44.chunk.css",
-    "main.js": "/PortfolioV2/static/js/main.d278e701.chunk.js",
-    "main.js.map": "/PortfolioV2/static/js/main.d278e701.chunk.js.map",
-    "runtime-main.js": "/PortfolioV2/static/js/runtime-main.7679bfe3.js",
-    "runtime-main.js.map": "/PortfolioV2/static/js/runtime-main.7679bfe3.js.map",
-    "static/js/2.7aeebf19.chunk.js": "/PortfolioV2/static/js/2.7aeebf19.chunk.js",
-    "static/js/2.7aeebf19.chunk.js.map": "/PortfolioV2/static/js/2.7aeebf19.chunk.js.map",
+    "main.css": "/PortfolioV2/static/css/main.50eba502.chunk.css",
+    "main.js": "/PortfolioV2/static/js/main.e6797cc9.chunk.js",
+    "main.js.map": "/PortfolioV2/static/js/main.e6797cc9.chunk.js.map",
+    "runtime-main.js": "/PortfolioV2/static/js/runtime-main.a7ca9a8c.js",
+    "runtime-main.js.map": "/PortfolioV2/static/js/runtime-main.a7ca9a8c.js.map",
+    "static/js/2.f81c48fd.chunk.js": "/PortfolioV2/static/js/2.f81c48fd.chunk.js",
+    "static/js/2.f81c48fd.chunk.js.map": "/PortfolioV2/static/js/2.f81c48fd.chunk.js.map",
     "index.html": "/PortfolioV2/index.html",
-    "precache-manifest.b00ba6bcae270a28b3f03e5407b55a8b.js": "/PortfolioV2/precache-manifest.b00ba6bcae270a28b3f03e5407b55a8b.js",
+    "precache-manifest.cc7be56ab0ae25f1354daaa90e6d02ed.js": "/PortfolioV2/precache-manifest.cc7be56ab0ae25f1354daaa90e6d02ed.js",
     "service-worker.js": "/PortfolioV2/service-worker.js",
-    "static/css/main.0dbf7b44.chunk.css.map": "/PortfolioV2/static/css/main.0dbf7b44.chunk.css.map",
-    "static/js/2.7aeebf19.chunk.js.LICENSE.txt": "/PortfolioV2/static/js/2.7aeebf19.chunk.js.LICENSE.txt",
+    "static/css/main.50eba502.chunk.css.map": "/PortfolioV2/static/css/main.50eba502.chunk.css.map",
+    "static/js/2.f81c48fd.chunk.js.LICENSE.txt": "/PortfolioV2/static/js/2.f81c48fd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/PortfolioV2/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/bauddhikgeeks-transparent.png": "/PortfolioV2/static/media/bauddhikgeeks-transparent.074c759b.png",
+    "static/media/bauddhikgeeks.png": "/PortfolioV2/static/media/bauddhikgeeks.f2d490dc.png",
     "static/media/buld.jpg": "/PortfolioV2/static/media/buld.a1051a22.jpg",
     "static/media/cwoc.png": "/PortfolioV2/static/media/cwoc.404ae7bc.png",
     "static/media/efi.png": "/PortfolioV2/static/media/efi.82473004.png",
@@ -41,9 +43,9 @@
     "static/media/wrighter.jpg": "/PortfolioV2/static/media/wrighter.02fdae43.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7679bfe3.js",
-    "static/js/2.7aeebf19.chunk.js",
-    "static/css/main.0dbf7b44.chunk.css",
-    "static/js/main.d278e701.chunk.js"
+    "static/js/runtime-main.a7ca9a8c.js",
+    "static/js/2.f81c48fd.chunk.js",
+    "static/css/main.50eba502.chunk.css",
+    "static/js/main.e6797cc9.chunk.js"
   ]
 }
