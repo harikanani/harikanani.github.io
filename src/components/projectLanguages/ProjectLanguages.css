@@ -27,6 +27,12 @@
   border-top: 5px solid #062e56;
 }
 
+/* @media (max-width: 400px) {
+  .dev-icons-languages {
+    font-size: 25px;
+  }
+} */
+
 @media (max-width: 768px) {
   .software-skill-inline-languages {
     margin-right: 10px;

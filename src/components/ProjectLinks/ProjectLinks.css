@@ -69,19 +69,6 @@
   flex-direction: row;
 }
 
-.flexDiv {
-  display: flex;
-  margin: 0;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.Leftitem {
-  align-content: flex-start;
-}
-.Rightitem {
-  align-items: flex-end;
-}
-
 .repo-creation-date {
   margin: 0;
   font-family: "Google Sans Regular";

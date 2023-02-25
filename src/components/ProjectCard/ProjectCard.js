@@ -1,10 +1,12 @@
 import React from "react";
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
+import ProjectLinks from "../ProjectLinks/ProjectLinks";
 import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
 
 export default function ProjectCard({ repo, theme }) {
+  console.log(repo);
   function openRepoinNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
@@ -30,7 +32,7 @@ export default function ProjectCard({ repo, theme }) {
         <div
           {...styles}
           key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
+          // onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.projectCard }}
         >
           <div className="repo-name-div">
@@ -41,8 +43,13 @@ export default function ProjectCard({ repo, theme }) {
           <p className="repo-description" style={{ color: theme.text }}>
             {repo.description}
           </p>
-          <div className="repo-details">
-            <ProjectLanguages logos={repo.languages} />
+          <div className="flexDiv">
+            <div className="repo-details Leftitem">
+              <ProjectLanguages logos={repo.languages} />
+            </div>
+            <div className="repo-details Rightitem">
+              <ProjectLinks logos={repo.links} />
+            </div>
           </div>
         </div>
       </Fade>
