@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "harry.k()",
   nickname: "harry / picleric",
   full_name: "Harikrushn Kanani",
-  subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+  subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/18N2zaieTTYJzf4apiYK-GcuNU2Q_ipJh/view?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
@@ -26,7 +26,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
   gmail: "hkanani191@gmail.com",
   gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
+  // facebook: "https://www.facebook.com/harikrishan.kanani/",
   twitter: "https://twitter.com/Harikrushn9",
   instagram: "https://www.instagram.com/hari_kanani_/",
 };
@@ -34,7 +34,7 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
@@ -122,20 +122,20 @@ const skills = {
             color: "#f89820",
           },
         },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
+        // {
+        //   skillName: "Flutter",
+        //   fontAwesomeClassname: "simple-icons:flutter",
+        //   style: {
+        //     color: "#02569B",
+        //   },
+        // },
+        // {
+        //   skillName: "Dart",
+        //   fontAwesomeClassname: "simple-icons:dart",
+        //   style: {
+        //     color: "#29B0EE",
+        //   },
+        // },
         // {
         //   skillName: "Visual Basic",
         //   fontAwesomeClassname: "simple-icons:dot-net",
@@ -150,13 +150,13 @@ const skills = {
             color: "#4479A1",
           },
         },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
-          },
-        },
+        // {
+        //   skillName: "jQuery",
+        //   fontAwesomeClassname: "simple-icons:jquery",
+        //   style: {
+        //     color: "#0865A6",
+        //   },
+        // },
         {
           skillName: "Wordpress",
           fontAwesomeClassname: "simple-icons:wordpress",
@@ -297,6 +297,7 @@ const degrees = {
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have secured 9.82 CGPA.",
       ],
       website_link: "http://www.ssgc.cteguj.in/",
     },
@@ -399,21 +400,10 @@ const experience = {
           company: "Valora Infotech",
           company_url: "http://valorainfotech.com/",
           logo_path: "valora.jpg",
-          duration: "Nov 2021 - Dec 2022",
+          duration: "Oct 2020 - Dec 2022",
           location: "Surat, Gujarat",
           description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Node.js Backend Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Surat, Gujarat",
-          description: `Focus on change request functions in close collaboration with the project manager and team leads.
+          Focus on change request functions in close collaboration with the project manager and team leads.
           Developed new and maintained existing applications.
           Increased productivity and problem-solving technics by 20%.
           We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
@@ -421,6 +411,21 @@ const experience = {
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
+        // {
+        //   title: "Node.js Backend Developer (Intern)",
+        //   company: "Valora Infotech",
+        //   company_url: "http://valorainfotech.com/",
+        //   logo_path: "valora.jpg",
+        //   duration: "Oct 2020 - Mar 2021",
+        //   location: "Surat, Gujarat",
+        //   description: `Focus on change request functions in close collaboration with the project manager and team leads.
+        //   Developed new and maintained existing applications.
+        //   Increased productivity and problem-solving technics by 20%.
+        //   We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
+        //   `,
+        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+        //   color: "#0071C5",
+        // },
         {
           title: "Full Stack Developer (Freelancer)",
           company: "NightOwls",
