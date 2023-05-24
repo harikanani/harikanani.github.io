@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Harikrushn Kanani",
   subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/18N2zaieTTYJzf4apiYK-GcuNU2Q_ipJh/view?usp=sharing",
+    "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
 };
 
