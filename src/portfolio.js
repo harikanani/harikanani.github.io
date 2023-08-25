@@ -287,17 +287,17 @@ const degrees = {
     },
     {
       title: "Government Polytechnic, Amravati",
-      subtitle: "Diploma in Information Technology",
+      subtitle: "Diploma in Computer Science Engineering",
       logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
+      alt_name: "GPA",
+      duration: "2017 - 2020",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-        "⚡ I have secured 9.82 CGPA.",
+        "⚡ I have secured 93.69%",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://www.gpamravati.ac.in/gpamravati_new/",
     },
   ],
 };
