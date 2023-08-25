@@ -10,31 +10,29 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Harikrushn",
-  logo_name: "harry.k()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
-  subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
+  title2: "Prasad Shembekar",
+  logo_name: "Portfolio",
+  nickname: "Mac / Charlie",
+  full_name: "Prasad Shembekar",
+  subTitle: "Software Engineer, Tech Enthusiast 🔥 Always Improving",
   resumeLink:
     "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+  mail: "mailto:prasad.remote06@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
-  // facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  github: "https://github.com/prasad-shembekar",
+  linkedin: "https://www.linkedin.com/in/prasadshembekar/",
+  gmail: "prasad.shembekar06@gmail.com",
+  hackerrank: "https://www.hackerrank.com/prasadshembekar",
+  //instagram: "https://www.instagram.com/hari_kanani_/",
 };
 
 const skills = {
   data: [
     {
-      title: "Backend Development",
+      title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
@@ -274,21 +272,21 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
+      title: "Government College Of Engineering,Amravati",
+      subtitle: "Bachelor in Computer Science Engineering",
       logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
+      alt_name: "GCOEA",
+      duration: "2020 - 2023",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
+        "⚡ I'm fresh college graduate",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgec.ac.in/",
+      website_link: "https://www.gcoea.ac.in/",
     },
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
+      title: "Government Polytechnic, Amravati",
       subtitle: "Diploma in Information Technology",
       logo_path: "ssgandhy.png",
       alt_name: "SSGC",
