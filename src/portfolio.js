@@ -278,12 +278,10 @@ const degrees = {
       subtitle: "Bachelor in Information Technology",
       logo_path: "ssec.png",
       alt_name: "SSEC",
-      duration: "2021 - Present",
+      duration: "2021 - 2024",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have studied core subjects like Machine Learning, Computer Vision, Advanced Web Development.",
+        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
       website_link: "http://www.ssgec.ac.in/",
     },
@@ -389,12 +387,22 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "As a Node.js Backend Developer, I have worked with real projects for over two years. I've mostly done projects on my own. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
+        {
+          title: "SDE Intern",
+          company: "Crest Infosystems Pvt. Ltd.",
+          company_url: "https://www.crestinfosystems.com/",
+          logo_path: "crest.png",
+          duration: "Jan 2024 - Present",
+          location: "Surat, Gujarat",
+          description: `As an SDE intern, my priorities include learning opportunities and professional development. Aiming for Backend Development proficiency.`,
+          color: "#0071C5",
+        },
         {
           title: "Node.js Backend Developer",
           company: "Valora Infotech",
