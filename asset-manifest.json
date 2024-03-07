@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.3dcb720d.chunk.css",
-    "main.js": "/static/js/main.f2c1e2d4.chunk.js",
-    "main.js.map": "/static/js/main.f2c1e2d4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3fdae03d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3fdae03d.js.map",
-    "static/js/2.8b58e736.chunk.js": "/static/js/2.8b58e736.chunk.js",
-    "static/js/2.8b58e736.chunk.js.map": "/static/js/2.8b58e736.chunk.js.map",
+    "main.css": "/static/css/main.a49edcc2.chunk.css",
+    "main.js": "/static/js/main.12ee7c5a.chunk.js",
+    "main.js.map": "/static/js/main.12ee7c5a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.de6673d8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.de6673d8.js.map",
+    "static/js/2.11010e6d.chunk.js": "/static/js/2.11010e6d.chunk.js",
+    "static/js/2.11010e6d.chunk.js.map": "/static/js/2.11010e6d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7c50687f79611cece89102e7a88963bb.js": "/precache-manifest.7c50687f79611cece89102e7a88963bb.js",
+    "precache-manifest.aaee1f940805aa7c88ef801eb01d897e.js": "/precache-manifest.aaee1f940805aa7c88ef801eb01d897e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3dcb720d.chunk.css.map": "/static/css/main.3dcb720d.chunk.css.map",
-    "static/js/2.8b58e736.chunk.js.LICENSE.txt": "/static/js/2.8b58e736.chunk.js.LICENSE.txt",
+    "static/css/main.a49edcc2.chunk.css.map": "/static/css/main.a49edcc2.chunk.css.map",
+    "static/js/2.11010e6d.chunk.js.LICENSE.txt": "/static/js/2.11010e6d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/bauddhikgeeks-transparent.png": "/static/media/bauddhikgeeks-transparent.074c759b.png",
     "static/media/bauddhikgeeks.png": "/static/media/bauddhikgeeks.f2d490dc.png",
     "static/media/buld.jpg": "/static/media/buld.a1051a22.jpg",
+    "static/media/crest-1.png": "/static/media/crest-1.ec8e1b3c.png",
     "static/media/cwoc.png": "/static/media/cwoc.404ae7bc.png",
     "static/media/efi.png": "/static/media/efi.82473004.png",
     "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
@@ -43,9 +44,9 @@
     "static/media/wrighter.jpg": "/static/media/wrighter.02fdae43.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3fdae03d.js",
-    "static/js/2.8b58e736.chunk.js",
-    "static/css/main.3dcb720d.chunk.css",
-    "static/js/main.f2c1e2d4.chunk.js"
+    "static/js/runtime-main.de6673d8.js",
+    "static/js/2.11010e6d.chunk.js",
+    "static/css/main.a49edcc2.chunk.css",
+    "static/js/main.12ee7c5a.chunk.js"
   ]
 }
