@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a49edcc2.chunk.css",
-    "main.js": "/static/js/main.12ee7c5a.chunk.js",
-    "main.js.map": "/static/js/main.12ee7c5a.chunk.js.map",
+    "main.css": "/static/css/main.2ee4951c.chunk.css",
+    "main.js": "/static/js/main.b73d0129.chunk.js",
+    "main.js.map": "/static/js/main.b73d0129.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.de6673d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.de6673d8.js.map",
-    "static/js/2.11010e6d.chunk.js": "/static/js/2.11010e6d.chunk.js",
-    "static/js/2.11010e6d.chunk.js.map": "/static/js/2.11010e6d.chunk.js.map",
+    "static/js/2.606ec7a4.chunk.js": "/static/js/2.606ec7a4.chunk.js",
+    "static/js/2.606ec7a4.chunk.js.map": "/static/js/2.606ec7a4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aaee1f940805aa7c88ef801eb01d897e.js": "/precache-manifest.aaee1f940805aa7c88ef801eb01d897e.js",
+    "precache-manifest.c245d343cfb102c157b011c84bdcf263.js": "/precache-manifest.c245d343cfb102c157b011c84bdcf263.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a49edcc2.chunk.css.map": "/static/css/main.a49edcc2.chunk.css.map",
-    "static/js/2.11010e6d.chunk.js.LICENSE.txt": "/static/js/2.11010e6d.chunk.js.LICENSE.txt",
+    "static/css/main.2ee4951c.chunk.css.map": "/static/css/main.2ee4951c.chunk.css.map",
+    "static/js/2.606ec7a4.chunk.js.LICENSE.txt": "/static/js/2.606ec7a4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/bauddhikgeeks-transparent.png": "/static/media/bauddhikgeeks-transparent.074c759b.png",
     "static/media/bauddhikgeeks.png": "/static/media/bauddhikgeeks.f2d490dc.png",
@@ -26,6 +26,8 @@
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.0c8a4c11.jpg",
     "static/media/gtu.png": "/static/media/gtu.3d9465c3.png",
     "static/media/hackathon1.svg": "/static/media/hackathon1.f7288055.svg",
+    "static/media/hari-crop.png": "/static/media/hari-crop.c4ab1a05.png",
+    "static/media/hari-profile.jpeg": "/static/media/hari-profile.e792dde7.jpeg",
     "static/media/harikrushn.jpg": "/static/media/harikrushn.85891c5d.jpg",
     "static/media/iit.png": "/static/media/iit.36d7942a.png",
     "static/media/ino.png": "/static/media/ino.ccf88661.png",
@@ -34,6 +36,7 @@
     "static/media/mlh-logo.svg": "/static/media/mlh-logo.bc5cfd3a.svg",
     "static/media/mlh.png": "/static/media/mlh.53dd27a8.png",
     "static/media/mongo.png": "/static/media/mongo.d324ee17.png",
+    "static/media/my-image.png": "/static/media/my-image.0621c4ff.png",
     "static/media/nightowls.jpg": "/static/media/nightowls.5dcd18d0.jpg",
     "static/media/postman.jpg": "/static/media/postman.22f11067.jpg",
     "static/media/postman.png": "/static/media/postman.c108f557.png",
@@ -45,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.de6673d8.js",
-    "static/js/2.11010e6d.chunk.js",
-    "static/css/main.a49edcc2.chunk.css",
-    "static/js/main.12ee7c5a.chunk.js"
+    "static/js/2.606ec7a4.chunk.js",
+    "static/css/main.2ee4951c.chunk.css",
+    "static/js/main.b73d0129.chunk.js"
   ]
 }
