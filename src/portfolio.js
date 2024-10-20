@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Harikrushn Kanani",
   subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
+    "https://drive.google.com/file/d/1J-6kMaW67JG_AU9rzYwlGCZjge-Nzkhl/view?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
 };
 
@@ -394,13 +394,20 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "SDE Intern",
+          title: "Software Engineer",
           company: "Crest Infosystems Pvt. Ltd.",
           company_url: "https://www.crestinfosystems.com/",
           logo_path: "crest.png",
           duration: "Jan 2024 - Present",
           location: "Surat, Gujarat",
-          description: `As an SDE intern, my priorities include learning opportunities and professional development. Aiming for Backend Development proficiency.`,
+          description: `Worked on enterprise-level software solutions including employee
+activity tracking system, point of sale system and support ticket
+systems, utilizing full-stack technologies and custom integrations. Improved system efficiency and user experience across
+multiple projects by developing and maintaining full-stack web apps
+with modern technologies like Electron.js, React.js, Node.js, and
+Sequelize. Designed and implemented custom solutions for tracking employee
+activity and database optimizations, resulting in improvement in
+performance.`,
           color: "#0071C5",
         },
         {
