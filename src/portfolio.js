@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Harikrushn Kanani",
   subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1J-6kMaW67JG_AU9rzYwlGCZjge-Nzkhl/view?usp=sharing",
+    "https://drive.google.com/file/d/1NQugCN-EtZs3haRtbgFGxgSaF5Xr8SzA/view?usp=drivesdk",
   mail: "mailto:hkanani191@gmail.com",
 };
 
@@ -34,7 +34,7 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Backend Development",
+      title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
@@ -67,13 +67,6 @@ const skills = {
           },
         },
         {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
@@ -82,42 +75,28 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
           style: {
             color: "#339933",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "ElectronJS",
+          fontAwesomeClassname: "simple-icons:electron",
           style: {
-            color: "#CB3837",
+            color: "#47848F",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#439743",
-          },
-        },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
+            color: "#3776AB",
           },
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "devicon-plain:java-wordmark",
           style: {
             color: "#f89820",
           },
@@ -136,13 +115,6 @@ const skills = {
         //     color: "#29B0EE",
         //   },
         // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -150,25 +122,11 @@ const skills = {
             color: "#4479A1",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
         {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
           style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
+            color: "#439743",
           },
         },
         {
@@ -176,27 +134,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
           },
         },
       ],
@@ -282,6 +219,7 @@ const degrees = {
       descriptions: [
         "⚡ I have studied core subjects like Machine Learning, Computer Vision, Advanced Web Development.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I participated in many hackathons and won more than 5 hackathons.",
       ],
       website_link: "http://www.ssgec.ac.in/",
     },
@@ -410,22 +348,22 @@ activity and database optimizations, resulting in improvement in
 performance.`,
           color: "#0071C5",
         },
-        {
-          title: "Node.js Backend Developer",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Dec 2022",
-          location: "Surat, Gujarat",
-          description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
-          Focus on change request functions in close collaboration with the project manager and team leads.
-          Developed new and maintained existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
+        // {
+        //   title: "Node.js Backend Developer",
+        //   company: "Valora Infotech",
+        //   company_url: "http://valorainfotech.com/",
+        //   logo_path: "valora.jpg",
+        //   duration: "Oct 2020 - Dec 2022",
+        //   location: "Surat, Gujarat",
+        //   description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
+        //   Focus on change request functions in close collaboration with the project manager and team leads.
+        //   Developed new and maintained existing applications.
+        //   Increased productivity and problem-solving technics by 20%.
+        //   We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
+        //   `,
+        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+        //   color: "#0071C5",
+        // },
         // {
         //   title: "Node.js Backend Developer (Intern)",
         //   company: "Valora Infotech",
@@ -564,7 +502,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "hari-crop.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },

@@ -29,9 +29,10 @@ function Contact(props) {
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
               <img
+                style={{ borderRadius: "50%" }}
                 className="profile-pic"
                 src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                alt=""
+                alt="harikanani-profile-pic"
               />
             </div>
             <div className="contact-heading-text-div">
