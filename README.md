@@ -7,10 +7,7 @@
 # Sections
 
 - Home
-- Education and Certificates
-- Experience
-- Projects
-- Contact and Resume
+- About
 
 # How To Use
 
