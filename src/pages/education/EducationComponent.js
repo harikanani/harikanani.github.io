@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Educations from "../../containers/education/Educations";
-import Certifications from "../../containers/certifications/Certifications";
+// import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
@@ -20,7 +20,7 @@ function Education(props) {
             </div>
             <div className="heading-text-div">
               <h1 className="heading-text" style={{ color: theme.text }}>
-                Education
+                Education and Background
               </h1>
               <h3 className="heading-sub-text" style={{ color: theme.text }}>
                 Basic Qualification and Certifications
@@ -29,14 +29,19 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                I have a formal educational background in Information
+                Technology, starting from vocational high school (SMK) through
+                to university. I have further enhanced my skills through
+                professional work experience and by contributing to various IT
+                projects, particularly in ERP systems and web development. My
+                expertise is a combination of formal education and practical,
+                hands-on experience
               </p>
             </div>
           </div>
         </Fade>
         <Educations theme={props.theme} />
-        <Certifications theme={props.theme} />
+        {/* <Certifications theme={props.theme} /> */}
       </div>
       <Footer theme={props.theme} />
     </div>

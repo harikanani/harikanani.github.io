@@ -1,6 +1,7 @@
 body {
   width: 100%;
   overflow-x: hidden;
+  /* cursor: default; */
 }
 .App {
   text-align: center;

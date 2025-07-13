@@ -1,0 +1,19 @@
+version: "3"
+services:
+  portfolio:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app              # Sinkronisasi folder lokal ke container
+      - /app/node_modules   # Cegah override node_modules container
+    environment:
+      - CHOKIDAR_USEPOLLING=true  # Untuk hot reload (khusus Linux)
+    stdin_open: true     # <--- Tambahkan ini
+    tty: true            # <--- Tambahkan ini
+    
+    
+    
+    8888 - [UDN-366] Add Field Customer PO Number in API Function create_quotation_from_principal_apps
+    8886 - [UDN-365] Add Validation in Customer Registration to Handle at Least One Customer Division and At Least One Address
+    8757 - [UDN-351] Add "Company Address as per Tax ID (NPWP)" in Customer Registration & Adjust Mandatory Fields
