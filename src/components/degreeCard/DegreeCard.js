@@ -97,8 +97,11 @@ function DegreeCard(props) {
               </h3>
             </div>
             <div className="body-header-duration">
-              <h3 className="duration" style={{ color: "#FFFFFF" }}>
+              {/* <h3 className="duration" style={{ color: "#FFFFFF" }}>
                 {degree.duration}
+              </h3> */}
+              <h3 className="duration" style={{ color: "#FFFFFF" }}>
+                {degree.location}
               </h3>
             </div>
           </div>
