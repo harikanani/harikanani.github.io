@@ -328,7 +328,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "As a Node.js Backend Developer, I have worked with real projects for over two years. I've mostly done projects on my own. I love organizing workshops to share my knowledge with others.",
+    "I’m a Full Stack Developer with over 3 years of hands-on experience building scalable web applications and APIs. My expertise spans Node.js, React.js, Nest.js, Next.js MongoDB, and MySQL, with a strong focus on performance optimization, clean architecture, and secure backend development.",
   header_image_path: "experience.svg",
   sections: [
     {
